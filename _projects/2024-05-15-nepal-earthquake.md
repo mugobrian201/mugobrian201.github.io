@@ -33,5 +33,4 @@ Identified that buildings with **mud mortar** and **4+ floors** were 3.2x more l
 {% include icon.html icon="fas fa-chart-line" title="Statsmodels" %}
 {% include icon.html icon="fab fa-github" title="GitHub" %}
 
-[View Full Notebook](https://github.com/mugobrian201/portfolio/blob/main/nepal_earthquake_damage_prediction.ipynb){: .btn .btn--info}
 [Explore Dataset on Kaggle](https://www.kaggle.com/datasets/crgrimm/nepal-earthquake-damage){: .btn .btn--info}

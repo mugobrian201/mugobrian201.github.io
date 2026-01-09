@@ -1,48 +1,45 @@
 ---
-layout: splash
+layout: splash  # Or try 'home' or 'default' if splash doesn't work; Minima uses 'home' often
+title: Brian Mugo
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/home-bg.jpg  # We'll add a subtle background later
-  cta_label: "View My Projects"
-  cta_url: /projects/
+  overlay_image: /assets/images/home-bg.jpg
   caption: "Building predictive models that solve real-world problems in Africa and beyond"
-excerpt: >
-  <p style="font-size:1.2em">Actuarial Science graduate specializing in machine learning solutions for disaster response, urban planning, and environmental health. Currently expanding my skills through WorldQuant University's Applied Data Science Lab.</p>
-feature_row:
-  - image_path: /assets/images/mexico-project-thumb.jpg
-    alt: "Mexico Real Estate Analysis"
-    title: "Property Value Drivers"
-    excerpt: "Identified key factors influencing Mexican real estate prices using spatial analysis"
-    url: "/projects/#mexico-real-estate-analysis"
-    btn_class: "btn--primary"
-    btn_text: "Explore Project"
-  - image_path: /assets/images/nepal-project-thumb.jpg
-    alt: "Nepal Earthquake Prediction"
-    title: "Disaster Response Modeling"
-    excerpt: "Predicted building damage severity to optimize emergency resource allocation"
-    url: "/projects/#nepal-earthquake-damage-prediction"
-    btn_class: "btn--primary"
-    btn_text: "Explore Project"
+  actions:
+    - label: "View My Projects"
+      url: "/projects/"
+excerpt: "Actuarial Science graduate specializing in machine learning solutions for disaster response, urban planning, and environmental health. Currently expanding my skills through WorldQuant University's Applied Data Science Lab."
 ---
 
-{% include feature_row id="intro" type="center" %}
+<p style="font-size:1.2em; text-align: center;">
+Actuarial Science graduate specializing in machine learning solutions for disaster response, urban planning, and environmental health. Currently expanding my skills through WorldQuant University's Applied Data Science Lab.
+</p>
 
-<div class="feature__wrapper">
-  <h2 class="archive__subtitle">Featured Technical Skills</h2>
-  <div class="grid__wrapper">
-    {% for skill in site.data.skills %}
-    <div class="grid__item">
-      <div class="card">
-        <div class="card__image">
-          <i class="fas fa-{{ skill.icon }} fa-3x"></i>
-        </div>
-        <div class="card__content">
-          <h3 class="card__title">{{ skill.name }}</h3>
-          <p class="card__text">{{ skill.description }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
+## Featured Projects
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 40px 0;">
+  <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: center;">
+    <img src="/assets/images/mexico-project-thumb.jpg" alt="Mexico Real Estate Analysis" style="width: 100%; border-radius: 8px;">
+    <h3>Mexico Real Estate Analysis</h3>
+    <p>Identified key factors influencing Mexican real estate prices using spatial analysis.</p>
+    <a href="/projects/#mexico-real-estate-analysis" class="btn btn--primary">Explore Project</a>
+  </div>
+
+  <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: center;">
+    <img src="/assets/images/nepal-project-thumb.jpg" alt="Nepal Earthquake Prediction" style="width: 100%; border-radius: 8px;">
+    <h3>Nepal Earthquake Prediction</h3>
+    <p>Predicted building damage severity to optimize emergency resource allocation.</p>
+    <a href="/projects/#nepal-earthquake-damage-prediction" class="btn btn--primary">Explore Project</a>
   </div>
 </div>
+
+## Featured Technical Skills
+
+<!-- If you have a _data/skills.yml file, this loop will work; otherwise add manually -->
+{% for skill in site.data.skills %}
+### {{ skill.name }}
+{{ skill.description }}
+{% endfor %}
+
+

@@ -32,7 +32,6 @@ Discovered that **property size explains more price variation than location alon
 
 These insights help investors optimize property portfolios and inform housing policy decisions in rapidly developing markets.
 
-### Technologies Used
 {% include icon.html icon="fab fa-python" title="Python" %}
 {% include icon.html icon="fas fa-chart-bar" title="Matplotlib/Seaborn" %}
 {% include icon.html icon="fas fa-globe-americas" title="Plotly Express" %}

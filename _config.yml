@@ -7,9 +7,10 @@ repository: "mugobrian201/mugobrian201.github.io"
 logo: "/assets/images/profile-placeholder.jpg"  # Add your photo later
 
 # Minimal Mistakes Theme Settings
-theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default"  # Options: neon, contrast, dark, default
+#theme: "minima-mistakes-jekyll"
+#remote_theme: "mmistakes/minima-mistakes"
+#minima_mistakes_skin: "default"  # Options: neon, contrast, dark, default
+theme: minima
 
 # Navigation
 nav:

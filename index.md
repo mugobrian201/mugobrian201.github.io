@@ -1,45 +1,26 @@
 ---
-layout: splash  # Or try 'home' or 'default' if splash doesn't work; Minima uses 'home' often
-title: Brian Mugo
-permalink: /
+layout: home
+author_profile: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/home-bg.jpg
-  caption: "Building predictive models that solve real-world problems in Africa and beyond"
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header-bg.jpg  # Upload a background image (e.g., data viz abstract)
   actions:
-    - label: "View My Projects"
-      url: "/projects/"
-excerpt: "Actuarial Science graduate specializing in machine learning solutions for disaster response, urban planning, and environmental health. Currently expanding my skills through WorldQuant University's Applied Data Science Lab."
+    - label: "Download CV"
+      url: "/assets/cv/Brian_Muitiriri_Mugo_CV.pdf"
+excerpt: "Actuarial Science graduate with hands-on data science skills in Python, R, and machine learning. Building predictive models for real-world challenges in urban planning, public health, and disaster response."
 ---
 
-<p style="font-size:1.2em; text-align: center;">
-Actuarial Science graduate specializing in machine learning solutions for disaster response, urban planning, and environmental health. Currently expanding my skills through WorldQuant University's Applied Data Science Lab.
-</p>
+## About Me
+Actuarial Science graduate (Second Class Honours, Upper Division) from Karatina University, with training from WorldQuant University's Applied Data Science Lab. Skilled in data cleaning, EDA, feature engineering, visualization, and predictive modeling. Eager to apply analytical skills in data-driven roles.
 
 ## Featured Projects
+{% include feature_row id="projects" type="left" %}
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 40px 0;">
-  <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: center;">
-    <img src="/assets/images/mexico-project-thumb.jpg" alt="Mexico Real Estate Analysis" style="width: 100%; border-radius: 8px;">
-    <h3>Mexico Real Estate Analysis</h3>
-    <p>Identified key factors influencing Mexican real estate prices using spatial analysis.</p>
-    <a href="/projects/#mexico-real-estate-analysis" class="btn btn--primary">Explore Project</a>
-  </div>
-
-  <div style="flex: 1; min-width: 300px; max-width: 400px; text-align: center;">
-    <img src="/assets/images/nepal-project-thumb.jpg" alt="Nepal Earthquake Prediction" style="width: 100%; border-radius: 8px;">
-    <h3>Nepal Earthquake Prediction</h3>
-    <p>Predicted building damage severity to optimize emergency resource allocation.</p>
-    <a href="/projects/#nepal-earthquake-damage-prediction" class="btn btn--primary">Explore Project</a>
-  </div>
-</div>
-
-## Featured Technical Skills
-
-<!-- If you have a _data/skills.yml file, this loop will work; otherwise add manually -->
-{% for skill in site.data.skills %}
-### {{ skill.name }}
-{{ skill.description }}
-{% endfor %}
+## Skills
+- **Languages**: English (Native), Kiswahili (Native)
+- **Programming & Tools**: Python (Pandas, NumPy, Scikit-learn, Statsmodels, Matplotlib, Seaborn, Plotly), R, Google Colab, MS Excel/Word/PowerPoint
+- **Data Science**: EDA, Feature Engineering, Machine Learning (Linear/Logistic Regression, Decision Trees, AR/ARMA), Model Evaluation, Statistical Analysis
+- **Soft Skills**: Problem-Solving, Time Management, Collaboration, Adaptability, Client Relationship Building
 
 

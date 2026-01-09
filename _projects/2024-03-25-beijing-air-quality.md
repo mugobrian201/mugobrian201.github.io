@@ -36,7 +36,7 @@ Surprisingly, the **Linear Regression model with lag features outperformed tradi
 - Policy evaluation tools for emission reduction strategies
 - Urban planning insights for pollution mitigation infrastructure
 
-### Technologies Used
+
 {% include icon.html icon="fab fa-python" title="Python" %}
 {% include icon.html icon="fas fa-microchip" title="Statsmodels" %}
 {% include icon.html icon="fas fa-clock" title="Time Series" %}

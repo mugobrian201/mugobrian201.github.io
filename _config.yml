@@ -1,0 +1,47 @@
+# Site Settings
+title: "Brian Mugo | Data Science Portfolio"
+description: "Actuarial Scientist & Data Science Practitioner from Kenya"
+url: "https://mugobrian201.github.io"
+baseurl: ""
+repository: "mugobrian201/mugobrian201.github.io"
+logo: "/assets/images/profile-placeholder.jpg"  # Add your photo later
+
+# Minimal Mistakes Theme Settings
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"  # Options: neon, contrast, dark, default
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+# Author Information
+author:
+  name: "Brian Muitiriri Mugo"
+  bio: "Data Scientist & Actuarial Science Graduate"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:mugobrian201@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mugobrian201"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/brian-mugo-a76339370/"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/cv/Brian_Mugo_CV.pdf"  # Upload your CV here later
+
+# Build settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed

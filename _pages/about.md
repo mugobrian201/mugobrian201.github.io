@@ -3,7 +3,7 @@ permalink: /about/
 title: About
 ---
 ### Summary
-[Paste your CV summary here.]
+"C:\Users\LENOVO\Documents\Brian Muitiriri Mugo CV.pdf"
 
 ### Work Experience
 - **Attachment, Unison Sacco** (May-Aug 2024): Excel data management, customer service, field visits, financial verification.

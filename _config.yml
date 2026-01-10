@@ -8,18 +8,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
-defaults:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: false
-      share: true
 defaults:
   - scope:
       path: ""

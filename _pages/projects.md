@@ -1,18 +1,6 @@
 ---
-title: "Data Science Projects"
 permalink: /projects/
-layout: collection
-collection: projects
-entries_layout: grid
-classes: wide
+title: Projects
+layout: archive
 ---
-
-## Real-World Predictive Modeling Portfolio
-
-Each project demonstrates the complete data science workflow: problem definition, data cleaning, exploratory analysis, model building, validation, and actionable insights. All code available on [GitHub](https://github.com/mugobrian201/portfolio).
-
-{% assign sorted_projects = site.projects | sort: 'importance' | reverse %}
-
-{% for post in sorted_projects %}
-  {% include archive-single.html %}
-{% endfor %}
+Explore my data science projects using real-world Kaggle datasets. Each showcases skills in data cleaning, EDA, feature engineering, visualization, and predictive modeling (e.g., Linear/Logistic Regression, Decision Trees, AR/ARMA).

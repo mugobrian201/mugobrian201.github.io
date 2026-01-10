@@ -3,7 +3,7 @@ permalink: /about/
 title: About
 ---
 ### Summary
-"C:\Users\LENOVO\Documents\Brian Muitiriri Mugo CV.pdf"
+Actuarial Science graduate (Second Class Honours, Upper Division) from Karatina University with hands-on data science training from WorldQuant University. Skilled in Python, R, Machine Learning, and Risk Modeling; experienced in Excel data processing and customer service from attachments at UNISON SACCO and Nakuru City Car Hire. Built a GitHub portfolio of four predictive modeling projects using real-world Kaggle datasets. Eager to apply my analytical and problem-solving skills.
 
 ### Work Experience
 - **Attachment, Unison Sacco** (May-Aug 2024): Excel data management, customer service, field visits, financial verification.

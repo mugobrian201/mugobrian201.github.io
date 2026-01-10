@@ -15,7 +15,6 @@ excerpt: "Actuarial Science graduate with hands-on data science skills in Python
 Actuarial Science graduate (Second Class Honours, Upper Division) from Karatina University, with training from WorldQuant University's Applied Data Science Lab. Skilled in data cleaning, EDA, feature engineering, visualization, and predictive modeling. Eager to apply analytical skills in data-driven roles.
 
 ## Featured Projects
-{% include feature_row id="projects" type="left" %}
 feature_row:
   - image_path: /assets/images/mexico-project-thumb.jpg
     alt: "Mexico Real Estate Analysis"

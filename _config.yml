@@ -48,3 +48,10 @@ author:
     - label: "Phone"
       icon: "fas fa-fw fa-phone"
       url: "tel:+254112310090"
+  navbar_links:
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Contact
+    url: /contact/

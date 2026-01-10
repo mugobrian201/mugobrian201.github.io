@@ -3,7 +3,7 @@ name: Brian Muitiriri Mugo
 description: Actuarial Science graduate specializing in machine learning for real-world problems.
 url: "https://mugobrian201.github.io"
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: dark  # Try "dark" or "contrast" for variety
+minimal_mistakes_skin: contrast # Try "dark" or "contrast" for variety
 plugins:
   - jekyll-include-cache
   - jekyll-feed
